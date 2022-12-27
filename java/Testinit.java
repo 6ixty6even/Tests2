@@ -18,7 +18,7 @@ public class Testinit {
         driver.get("https://www.amazon.com/");
     }
 
-    public WebElement getElementByXpath(String locator) {
+    public WebElement elementByXpath(String locator) {
         return driver.findElement(By.xpath(locator));
     }
 
